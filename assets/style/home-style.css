@@ -1,0 +1,142 @@
+:root {
+  --body-color: #f6f7f9;
+  --white: #ffffff;
+  --blue: #39b5ea;
+}
+
+img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+h3, h4 {
+  margin: 0;
+}
+
+button {
+  background: var(--blue);
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 50px;
+  width: 90%;
+  margin-top: 60px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+button:hover {
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+body {
+  background-color: var(--body-color);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* MAIN */
+
+.main {
+  max-width: 1400px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main > div {
+  background-color: var(--white);
+  height: 100%;
+}
+
+/* PROFILE */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  text-align: center;
+  padding: 40px 10px;
+}
+
+.profile h3 {
+  margin: 0;
+}
+
+.profile__picture {
+  width: 100px;
+  height: 100px;
+  max-height: 100px;
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+/* TIME LINE */
+
+.time-line {
+  width: 60%;
+}
+
+.time-line__card {
+  padding: 30px;
+  border-bottom: 10px solid var(--body-color);;
+}
+
+.time-line__user {
+  display: flex;
+  align-items: center;
+}
+.time-line__user img {
+  margin-right: 30px;
+}
+
+.time-line__user p, .time-line__user h3 {
+  margin: 0;
+}
+
+.time-line__image img {
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+
+/* PEOPLE */
+
+.people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  width: 18%;
+}
+
+.people__picture {
+  margin-bottom: 20px;
+}
+
+.people__title, .people > div {
+  border-bottom: 4px solid var(--body-color);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.people > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+}

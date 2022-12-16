@@ -15,63 +15,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="assets/style/index.css" media="all" />
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css' rel='stylesheet' />
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js'></script>
+    <link rel="stylesheet" href="assets/style/home-style.css" media="all" />
     <script src="assets/script/index.js" defer></script>
     <title>mastership</title>
   </head>
-  
-  
-  
-    <img class="imagen" src="assets/img/login.jpg" alt="search">
-  
-  <body> 
-      <div class="d-lg-flex half">
-        <div class="bg order-1 order-md-2" style="background-image: url('images/bg_1.jpg');"></div>
-        <div class="contents order-2 order-md-1">
-    
-          <div class="container">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-md-7">
-                <h3>Login to <strong>Colorlib</strong></h3>
-                <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
-                <form action="#" method="post">
-                  <div class="form-group first">
-                    <label for="username">Username</label>
-                    <input type="text" class="form-control" placeholder="your-email@gmail.com" id="username">
-                  </div>
-                  <div class="form-group last mb-3">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" placeholder="Your Password" id="password">
-                  </div>
-                  
-                  <div class="d-flex mb-5 align-items-center">
-                    <label class="control control--checkbox mb-0"><span class="caption">Remember me</span>
-                      <input type="checkbox" checked="checked"/>
-                      <div class="control__indicator"></div>
-                    </label>
-                    <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span> 
-                  </div>
-    
-                  <input type="submit" value="Log In" class="btn btn-block btn-primary">
-    
-                </form>
-              </div>
+  <body>
+    <section class="main">
+      <div class="profile">
+        <img class="profile__picture" src="./assets/img/avatarrag.jpg">
+        <h3 class="profile__name">Roberto Aguirre</h3>
+        <small class="profile__job">Web Developer</small>
+        <button>Follow +</button>
+      </div>
+      <div class="time-line">
+        <div class="time-line__card">
+          <div class="time-line__user">
+            <img src="./assets/img/avatar_post1.jpg">
+            <div>
+              <h3>Marina Swendelnge</h3>
+              <p> C# / html and css Designer</p>
             </div>
           </div>
+          <div class="time-line__description">
+            <p>
+              For text boxes, our computers automatically choose words from the site that has the form;
+              for select menus, check boxes, and radio buttons on the form, we choose from among the values
+              of the HTML. Having chosen the values for each input, we generate and then try to crawl URLs 
+              that correspond to a possible query a user may have made. If we ascertain that the Web page 
+              resulting from our query is valid, interesting and includes content not in our index, 
+              we may include it in our index much as we would include any other Web page. 
+            </p>
+          </div>
+          <div class="time-line__image">
+            <img src="./assets/img/avatar_post1_big1.jpg">
+          </div>
         </div>
-    
-        
+        <div class="time-line__card">
+          <div class="time-line__user">
+            <img src="./assets/img/avatar_post2.jpg">
+            <div>
+              <h3>George Sortos</h3>
+              <p>C++ Developer, Software engineer</p>
+            </div>
+          </div>
+          <div class="time-line__description">
+            <p>
+              While pay is a topic that affects everyone, it can be tricky to navigate—especially if you’re new to 
+              the industry. Before you go for your first interview or consider a job offer, it’s important to 
+              have an idea of your earning potential. Of course, there is no fixed salary for web developers: 
+              pay will vary depending on your skills, location, years of experience and the company you work for.
+            </p>
+          </div>
+          <div class="time-line__image">
+            <img src="./assets/img/avatar_post1_big2.jpg">
+          </div>
+        </div>
       </div>
-        
-  
+      <div class="people"></div>
+    </section>
   </body>
-
-
-
-
-
-
 
 </html>
