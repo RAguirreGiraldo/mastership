@@ -4,7 +4,10 @@ I invite you to join our new network of mastership contacts are people focused o
 
 ### Example in Web Page  
 
-If you want to learn more about this new network I invite you to click and try our website.git commit -m "first commit"
+If you want to learn more about this new network I invite you to click and try our website
+
+User: test@gmail.com
+password: test
 
 [Here I'm](https://raguirregiraldo.github.io/mastership/)
 
