@@ -1,7 +1,5 @@
 'use strict';
 
-'use strict';
-
 localStorage.setItem('validUser', false);
 localStorage.setItem('dataValidUser', JSON.stringify({email: 'admin@gmail.com', password: 'admin'}));
 
