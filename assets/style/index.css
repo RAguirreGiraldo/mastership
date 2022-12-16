@@ -2,10 +2,10 @@
 
 :root {
   --app-dark-bg:#1a1d28;
-  --app-white: #fff;
+  --app-white: #f6f7f9;
   --app-light-bg: #ffffff;
   --app-gray-border:#efefef;
-  --app-light-gray:#b3b3b3;
+  --app-light-gray:#141414;
   --app-darkinput: #0f1014;  
   --app-blue: #007bff;
   --app-bkbtn:#0069d9;
@@ -132,7 +132,8 @@ border-radius: 0;
 
 #error {
   display: none;
-  color: var(--red);
+  color: var(--app-red);
+  font-size: 25px;
 }
 
 

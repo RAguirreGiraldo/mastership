@@ -1,7 +1,7 @@
 'use strict';
 
 localStorage.setItem('validUser', false);
-localStorage.setItem('dataValidUser', JSON.stringify({email: 'admin@gmail.com', password: 'admin'}));
+localStorage.setItem('dataValidUser', JSON.stringify({email: 'test@gmail.com', password: 'test'}));
 
 const adminUser = JSON.parse(localStorage.getItem('dataValidUser'));
 const button = document.querySelector("#login-button");

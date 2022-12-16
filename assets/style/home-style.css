@@ -3,6 +3,36 @@
   --white: #ffffff;
   --blue: #39b5ea;
 }
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+h2, h3 {
+  color: var(--app-light-bg);  
+}
+
+.menu {
+  color: var(--app-light-bg);  
+  flex-direction: row;
+  padding: 10px;
+  font-size: 25px;  
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+li a {  
+  color: var(--app-light-bg);
+  text-align: center;
+}
+/*end header*/
 
 img {
   border-radius: 50%;
